@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main>.job-description{
+    background-image: url('/image/job\ section\ background.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.job-description .card{
+    position: relative;
+    min-width: 250px;
+    max-width: 300px;
+    border-radius: 10px 35px 10px 35px;
+    padding: 20px 0px;
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 0;
+}
+.job-description .card::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+}
+.job-description .card:hover{
+    color: black !important;
+}
+.job-description .card:hover.card:before{
+    height: 100%;
+
+}
+.job-description .card:hover .btn{
+    color: white !important;
+    background-color: black !important;
+}
+
+.main>.flow-up{
+    background-image: url('/image/flow\ up\ to\ adoption\ background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flow-up .card{
+    max-width: 250px;
+    min-height: 350px;
+    border-radius: 15px 15px 10px 10px;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.flow-up .card:hover{
+    transform: scale(1.05);
+}
+.flow-up .card:nth-child(1) .step{
+    background-color: #A10000;
+}
+.flow-up .card:nth-child(1) .title{
+    color: #A10000;
+}
+.flow-up .card:nth-child(2) .step{
+    background-color: #ECB800;
+}
+.flow-up .card:nth-child(2) .title{
+    color: #ECB800;
+}
+.flow-up .card:nth-child(3) .step{
+    background-color: #21A401;
+}
+.flow-up .card:nth-child(3) .title{
+    color: #21A401;
+}
+.flow-up .card:nth-child(4) .step{
+    background-color: #9747FF;
+}
+.flow-up .card:nth-child(4) .title{
+    color: #9747FF;
+}
+.flow-up .card .title h6:nth-child(2){
+    font-size: 13px !important;
+}
+.flow-up .card img{
+    width: 70px !important;
+}
+
+.main>.staff-voice{
+    background-image: url('/image/staff\ voice\ background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.staff-voice .voice-box-container{
+    width: 470px;
+    display: flex;
+}
+.staff-voice .voice-box-container:nth-child(even){
+    justify-content: end;
+}
+.staff-voice .voice-box{
+    width: 470px !important;
+    border-radius: 100px;
+    box-shadow: 2px 2px 5px 2px rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease-in-out;
+}
+.staff-voice .voice-box-container:nth-child(even) .voice-box>div {
+    flex-direction: row-reverse !important;
+}
+.staff-voice .voice-box:hover{
+    transform: scale(1.05);
+}
+
+.main>.events{
+    background-image: url('/image/enents\ and\ activities.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:1200px) {
+    .staff-voice .voice-box-container{
+        width: 90%;
+    }
+}
+
+@media (max-width:576px) {
+    .staff-voice .voice-box-container{
+        width: 100%;
+        justify-content: center !important;
+    }
+    .staff-voice .voice-box{
+        width: 97% !important;
+    }
+}
