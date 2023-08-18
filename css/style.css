@@ -49,7 +49,7 @@ body{
 }
 
 .main>.job-description{
-    background-image: url('./image/job\ section\ background.png');
+    background-image: url('../image/job\ section\ background.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@ body{
 }
 
 .main>.flow-up{
-    background-image: url('./image/flow\ up\ to\ adoption\ background.png');
+    background-image: url('../image/flow\ up\ to\ adoption\ background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -104,28 +104,28 @@ body{
 .flow-up .card:hover{
     transform: scale(1.05);
 }
-.flow-up .card:nth-child(1) .step{
+.flow-up .card.card-1 .step{
     background-color: #A10000;
 }
-.flow-up .card:nth-child(1) .title{
+.flow-up .card.card-1 .title{
     color: #A10000;
 }
-.flow-up .card:nth-child(2) .step{
+.flow-up .card.card-2 .step{
     background-color: #ECB800;
 }
-.flow-up .card:nth-child(2) .title{
+.flow-up .card.card-2 .title{
     color: #ECB800;
 }
-.flow-up .card:nth-child(3) .step{
+.flow-up .card.card-3 .step{
     background-color: #21A401;
 }
-.flow-up .card:nth-child(3) .title{
+.flow-up .card.card-3 .title{
     color: #21A401;
 }
-.flow-up .card:nth-child(4) .step{
+.flow-up .card.card-4 .step{
     background-color: #9747FF;
 }
-.flow-up .card:nth-child(4) .title{
+.flow-up .card.card-4 .title{
     color: #9747FF;
 }
 .flow-up .card .title h6:nth-child(2){
@@ -136,7 +136,7 @@ body{
 }
 
 .main>.staff-voice{
-    background-image: url('./image/staff\ voice\ background.png');
+    background-image: url('../image/staff\ voice\ background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,7 +162,7 @@ body{
 }
 
 .main>.events{
-    background-image: url('./image/enents\ and\ activities.png');
+    background-image: url('../image/enents\ and\ activities.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
