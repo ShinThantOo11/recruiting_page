@@ -49,7 +49,7 @@ body{
 }
 
 .main>.job-description{
-    background-image: url('image/job\ section\ background.png');
+    background-image: url('./image/job\ section\ background.png');
     background-color: rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@ body{
 }
 
 .main>.flow-up{
-    background-image: url('image/flow\ up\ to\ adoption\ background.png');
+    background-image: url('./image/flow\ up\ to\ adoption\ background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ body{
 }
 
 .main>.staff-voice{
-    background-image: url('image/staff\ voice\ background.png');
+    background-image: url('./image/staff\ voice\ background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -162,7 +162,7 @@ body{
 }
 
 .main>.events{
-    background-image: url('image/enents\ and\ activities.png');
+    background-image: url('./image/enents\ and\ activities.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
